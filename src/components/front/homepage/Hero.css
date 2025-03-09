@@ -1,0 +1,31 @@
+/* Splide pagination styles */
+.splide__pagination {
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  padding: 0 1em;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+}
+
+.splide__pagination__page {
+  background: #B7BDC4;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+}
+
+.splide__pagination__page.is-active {
+  background: #FEC740;
+  transform: scale(1.4);
+}
+
+.splide__pagination__page:hover {
+  background: #FEC740;
+  cursor: pointer;
+}

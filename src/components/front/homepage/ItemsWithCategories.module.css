@@ -1,0 +1,36 @@
+/* Add this CSS to style the Splide slider */
+:global(.your-class-pagination) {
+  bottom: -1rem !important;
+  padding: 0.5rem 0;
+}
+
+:global(.your-class-arrows) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+:global(.your-class-arrow) {
+  background: rgba(255, 255, 255, 0.9) !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+:global(.your-class-arrow:hover) {
+  background: #fff !important;
+}
+
+:global(.your-class-prev) {
+  left: -1rem !important;
+}
+
+:global(.your-class-next) {
+  right: -1rem !important;
+}
+
+:global(.splide__pagination__page.is-active) {
+  background: #00BAFF !important;
+}
