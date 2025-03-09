@@ -1,0 +1,20 @@
+/* Pagination dots */
+.splide__pagination__page {
+  background-color: #B7BDC4; /* Inactive color */
+  width: 12px; /* Dot size */
+  height: 12px;
+  margin: 0 6px; /* Spacing between dots */
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+/* Active dot */
+.splide__pagination__page.is-active {
+  background-color: #FEC740 !important; /* Active color */
+}
+
+/* Hover effect */
+.splide__pagination__page:hover {
+  background-color: #FEC740;
+  opacity: 0.8;
+}
